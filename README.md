@@ -7,4 +7,4 @@ Austin Petersen
 Michael Ward
 Gerald Stanford(myself)
 Orginal version is linked here:
-github.com/mbward4602/Senior_Design_Capstone_STrumTech
+https://github.com/mbward4602/Senior_Design_Capstone_STrumTech
