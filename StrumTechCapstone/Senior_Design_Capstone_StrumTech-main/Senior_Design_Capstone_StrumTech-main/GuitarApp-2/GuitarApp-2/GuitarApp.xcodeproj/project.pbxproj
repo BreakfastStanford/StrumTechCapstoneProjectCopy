@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F083FEFD2BB9B50500206626 /* OverlayerPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083FEFB2BB9B50500206626 /* OverlayerPopup.swift */; };
+		F083FEFE2BB9B50500206626 /* OverlayerPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = F083FEFC2BB9B50500206626 /* OverlayerPopup.xib */; };
+		F083FF022BB9F73000206626 /* ReconnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083FF012BB9F73000206626 /* ReconnectController.swift */; };
+		F083FF042BB9FC2A00206626 /* BaseConnectionControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083FF032BB9FC2A00206626 /* BaseConnectionControllers.swift */; };
+		F083FF062BBA527600206626 /* ModeSwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083FF052BBA527600206626 /* ModeSwitchController.swift */; };
+		F08F25382B34FF740003C74C /* ChordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F25372B34FF740003C74C /* ChordPageViewController.swift */; };
+		F08F253B2B3699240003C74C /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F253A2B3699240003C74C /* ErrorManager.swift */; };
+		F08F253D2B36AD270003C74C /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F253C2B36AD270003C74C /* BLEService.swift */; };
+		F09908462B8FEC190071B817 /* GuitarModeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09908452B8FEC190071B817 /* GuitarModeEnum.swift */; };
+		F09F0D322B87FB810072B3C0 /* BlEDelageteObject_ext_central.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F0D312B87FB810072B3C0 /* BlEDelageteObject_ext_central.swift */; };
+		F09F0D342B87FC190072B3C0 /* BlEDelageteObject_ext_peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F0D332B87FC190072B3C0 /* BlEDelageteObject_ext_peripheral.swift */; };
+		F0A068CA2BBB02D100447622 /* GuitarUITabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A068C92BBB02D100447622 /* GuitarUITabBarDelegate.swift */; };
+		F0A731652B1746B500F621CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A731642B1746B500F621CE /* AppDelegate.swift */; };
+		F0A731672B1746B500F621CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A731662B1746B500F621CE /* SceneDelegate.swift */; };
+		F0A7316C2B1746B500F621CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A7316A2B1746B500F621CE /* Main.storyboard */; };
+		F0A7316E2B1746B600F621CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A7316D2B1746B600F621CE /* Assets.xcassets */; };
+		F0A731712B1746B600F621CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A7316F2B1746B600F621CE /* LaunchScreen.storyboard */; };
+		F0A731792B1748DC00F621CE /* cbuuidStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A731782B1748DC00F621CE /* cbuuidStruct.swift */; };
+		F0B200E82B3B81B20008231B /* BLEDelagateObject .swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B200E72B3B81B20008231B /* BLEDelagateObject .swift */; };
+		F0B200EC2B3B9B340008231B /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B200EB2B3B9B340008231B /* TunerViewController.swift */; };
+		F0B5D8E32B93E44900CD1659 /* BlEDelageteObject_ext_connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5D8E22B93E44900CD1659 /* BlEDelageteObject_ext_connection.swift */; };
+		F0B5D8E52B93ED3900CD1659 /* FreeModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5D8E42B93ED3900CD1659 /* FreeModeViewController.swift */; };
+		F0B625822BB0D11A00F35B63 /* SetUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B625812BB0D11A00F35B63 /* SetUpController.swift */; };
+		F0B625852BB0FB2700F35B63 /* BlEDelageteObject_ext_setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B625842BB0FB2700F35B63 /* BlEDelageteObject_ext_setup.swift */; };
+		F0C04BEF2BA95BDC0099FA8D /* GuitarUINavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C04BEE2BA95BDC0099FA8D /* GuitarUINavigationDelegate.swift */; };
+		F0CA88FE2B8BC2FA002FD1F0 /* BlEDelageteObject_ext_tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CA88FD2B8BC2FA002FD1F0 /* BlEDelageteObject_ext_tasks.swift */; };
+		F0FD90C22B3D296200F0A60E /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = F0FD90C12B3D296200F0A60E /* Notes */; };
+		F0FD90C62B3D5E6700F0A60E /* BLEViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FD90C52B3D5E6700F0A60E /* BLEViewControllerBase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F083FEFB2BB9B50500206626 /* OverlayerPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayerPopup.swift; sourceTree = "<group>"; };
+		F083FEFC2BB9B50500206626 /* OverlayerPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayerPopup.xib; sourceTree = "<group>"; };
+		F083FF012BB9F73000206626 /* ReconnectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectController.swift; sourceTree = "<group>"; };
+		F083FF032BB9FC2A00206626 /* BaseConnectionControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConnectionControllers.swift; sourceTree = "<group>"; tabWidth = 5; };
+		F083FF052BBA527600206626 /* ModeSwitchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSwitchController.swift; sourceTree = "<group>"; };
+		F08F25342B321DA50003C74C /* ProtocolPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F08F25362B34C3870003C74C /* learnExtensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = learnExtensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F08F25372B34FF740003C74C /* ChordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordPageViewController.swift; sourceTree = "<group>"; };
+		F08F253A2B3699240003C74C /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		F08F253C2B36AD270003C74C /* BLEService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEService.swift; sourceTree = "<group>"; };
+		F09908452B8FEC190071B817 /* GuitarModeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarModeEnum.swift; sourceTree = "<group>"; };
+		F09F0D312B87FB810072B3C0 /* BlEDelageteObject_ext_central.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlEDelageteObject_ext_central.swift; sourceTree = "<group>"; };
+		F09F0D332B87FC190072B3C0 /* BlEDelageteObject_ext_peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlEDelageteObject_ext_peripheral.swift; sourceTree = "<group>"; };
+		F0A068C92BBB02D100447622 /* GuitarUITabBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarUITabBarDelegate.swift; sourceTree = "<group>"; };
+		F0A731612B1746B500F621CE /* GuitarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A731642B1746B500F621CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0A731662B1746B500F621CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0A7316B2B1746B500F621CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0A7316D2B1746B600F621CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0A731702B1746B600F621CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0A731722B1746B600F621CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A731782B1748DC00F621CE /* cbuuidStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cbuuidStruct.swift; sourceTree = "<group>"; };
+		F0B200E72B3B81B20008231B /* BLEDelagateObject .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BLEDelagateObject .swift"; sourceTree = "<group>"; };
+		F0B200EB2B3B9B340008231B /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
+		F0B5D8E22B93E44900CD1659 /* BlEDelageteObject_ext_connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlEDelageteObject_ext_connection.swift; sourceTree = "<group>"; };
+		F0B5D8E42B93ED3900CD1659 /* FreeModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeModeViewController.swift; sourceTree = "<group>"; };
+		F0B625812BB0D11A00F35B63 /* SetUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpController.swift; sourceTree = "<group>"; };
+		F0B625842BB0FB2700F35B63 /* BlEDelageteObject_ext_setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlEDelageteObject_ext_setup.swift; sourceTree = "<group>"; };
+		F0C04BEE2BA95BDC0099FA8D /* GuitarUINavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarUINavigationDelegate.swift; sourceTree = "<group>"; };
+		F0CA88FD2B8BC2FA002FD1F0 /* BlEDelageteObject_ext_tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlEDelageteObject_ext_tasks.swift; sourceTree = "<group>"; };
+		F0FD90C12B3D296200F0A60E /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		F0FD90C52B3D5E6700F0A60E /* BLEViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewControllerBase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A7315E2B1746B500F621CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F083FEFA2BB9B3B500206626 /* OverlayerPopup */ = {
+			isa = PBXGroup;
+			children = (
+				F083FEFB2BB9B50500206626 /* OverlayerPopup.swift */,
+				F083FEFC2BB9B50500206626 /* OverlayerPopup.xib */,
+			);
+			path = OverlayerPopup;
+			sourceTree = "<group>";
+		};
+		F08F25352B321DE50003C74C /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				F08F25392B3507860003C74C /* Notes */,
+				F08F25342B321DA50003C74C /* ProtocolPlayground.playground */,
+				F08F25362B34C3870003C74C /* learnExtensions.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		F08F25392B3507860003C74C /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				F0FD90C12B3D296200F0A60E /* Notes */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		F0A731582B1746B500F621CE = {
+			isa = PBXGroup;
+			children = (
+				F0A731632B1746B500F621CE /* GuitarApp */,
+				F0A731622B1746B500F621CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A731622B1746B500F621CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A731612B1746B500F621CE /* GuitarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A731632B1746B500F621CE /* GuitarApp */ = {
+			isa = PBXGroup;
+			children = (
+				F083FEFA2BB9B3B500206626 /* OverlayerPopup */,
+				F08F25352B321DE50003C74C /* Playgrounds */,
+				F0A731642B1746B500F621CE /* AppDelegate.swift */,
+				F0A731662B1746B500F621CE /* SceneDelegate.swift */,
+				F0A7317B2B17492000F621CE /* Model */,
+				F0A7317A2B17490C00F621CE /* Controllers */,
+				F0A7316A2B1746B500F621CE /* Main.storyboard */,
+				F0A7316D2B1746B600F621CE /* Assets.xcassets */,
+				F0A7316F2B1746B600F621CE /* LaunchScreen.storyboard */,
+				F0A731722B1746B600F621CE /* Info.plist */,
+			);
+			path = GuitarApp;
+			sourceTree = "<group>";
+		};
+		F0A7317A2B17490C00F621CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0B625802BB0D0DC00F35B63 /* ConnectionControllers */,
+				F0C04BEA2BA953BD0099FA8D /* Navigation */,
+				F0C04BEB2BA953CF0099FA8D /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0A7317B2B17492000F621CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0A731782B1748DC00F621CE /* cbuuidStruct.swift */,
+				F08F253A2B3699240003C74C /* ErrorManager.swift */,
+				F08F253C2B36AD270003C74C /* BLEService.swift */,
+				F0B625832BB0FAB300F35B63 /* BleDelegate */,
+				F09908452B8FEC190071B817 /* GuitarModeEnum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0B625802BB0D0DC00F35B63 /* ConnectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F083FF012BB9F73000206626 /* ReconnectController.swift */,
+				F0B625812BB0D11A00F35B63 /* SetUpController.swift */,
+				F083FF032BB9FC2A00206626 /* BaseConnectionControllers.swift */,
+				F083FF052BBA527600206626 /* ModeSwitchController.swift */,
+			);
+			path = ConnectionControllers;
+			sourceTree = "<group>";
+		};
+		F0B625832BB0FAB300F35B63 /* BleDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5D8E22B93E44900CD1659 /* BlEDelageteObject_ext_connection.swift */,
+				F09F0D312B87FB810072B3C0 /* BlEDelageteObject_ext_central.swift */,
+				F09F0D332B87FC190072B3C0 /* BlEDelageteObject_ext_peripheral.swift */,
+				F0CA88FD2B8BC2FA002FD1F0 /* BlEDelageteObject_ext_tasks.swift */,
+				F0B200E72B3B81B20008231B /* BLEDelagateObject .swift */,
+				F0B625842BB0FB2700F35B63 /* BlEDelageteObject_ext_setup.swift */,
+			);
+			path = BleDelegate;
+			sourceTree = "<group>";
+		};
+		F0C04BEA2BA953BD0099FA8D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F0C04BEE2BA95BDC0099FA8D /* GuitarUINavigationDelegate.swift */,
+				F0A068C92BBB02D100447622 /* GuitarUITabBarDelegate.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F0C04BEB2BA953CF0099FA8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0FD90C52B3D5E6700F0A60E /* BLEViewControllerBase.swift */,
+				F0B200EB2B3B9B340008231B /* TunerViewController.swift */,
+				F08F25372B34FF740003C74C /* ChordPageViewController.swift */,
+				F0B5D8E42B93ED3900CD1659 /* FreeModeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A731602B1746B500F621CE /* GuitarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A731752B1746B600F621CE /* Build configuration list for PBXNativeTarget "GuitarApp" */;
+			buildPhases = (
+				F0A7315D2B1746B500F621CE /* Sources */,
+				F0A7315E2B1746B500F621CE /* Frameworks */,
+				F0A7315F2B1746B500F621CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarApp;
+			productName = GuitarApp;
+			productReference = F0A731612B1746B500F621CE /* GuitarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A731592B1746B500F621CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F0A731602B1746B500F621CE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F0A7315C2B1746B500F621CE /* Build configuration list for PBXProject "GuitarApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A731582B1746B500F621CE;
+			productRefGroup = F0A731622B1746B500F621CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A731602B1746B500F621CE /* GuitarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A7315F2B1746B500F621CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A731712B1746B600F621CE /* LaunchScreen.storyboard in Resources */,
+				F083FEFE2BB9B50500206626 /* OverlayerPopup.xib in Resources */,
+				F0A7316E2B1746B600F621CE /* Assets.xcassets in Resources */,
+				F0FD90C22B3D296200F0A60E /* Notes in Resources */,
+				F0A7316C2B1746B500F621CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A7315D2B1746B500F621CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083FF062BBA527600206626 /* ModeSwitchController.swift in Sources */,
+				F0C04BEF2BA95BDC0099FA8D /* GuitarUINavigationDelegate.swift in Sources */,
+				F09F0D342B87FC190072B3C0 /* BlEDelageteObject_ext_peripheral.swift in Sources */,
+				F0A068CA2BBB02D100447622 /* GuitarUITabBarDelegate.swift in Sources */,
+				F0B5D8E32B93E44900CD1659 /* BlEDelageteObject_ext_connection.swift in Sources */,
+				F08F253B2B3699240003C74C /* ErrorManager.swift in Sources */,
+				F0B200EC2B3B9B340008231B /* TunerViewController.swift in Sources */,
+				F09908462B8FEC190071B817 /* GuitarModeEnum.swift in Sources */,
+				F0B5D8E52B93ED3900CD1659 /* FreeModeViewController.swift in Sources */,
+				F0A731652B1746B500F621CE /* AppDelegate.swift in Sources */,
+				F0B200E82B3B81B20008231B /* BLEDelagateObject .swift in Sources */,
+				F08F25382B34FF740003C74C /* ChordPageViewController.swift in Sources */,
+				F083FF022BB9F73000206626 /* ReconnectController.swift in Sources */,
+				F0FD90C62B3D5E6700F0A60E /* BLEViewControllerBase.swift in Sources */,
+				F08F253D2B36AD270003C74C /* BLEService.swift in Sources */,
+				F09F0D322B87FB810072B3C0 /* BlEDelageteObject_ext_central.swift in Sources */,
+				F0B625852BB0FB2700F35B63 /* BlEDelageteObject_ext_setup.swift in Sources */,
+				F083FEFD2BB9B50500206626 /* OverlayerPopup.swift in Sources */,
+				F0A731672B1746B500F621CE /* SceneDelegate.swift in Sources */,
+				F0B625822BB0D11A00F35B63 /* SetUpController.swift in Sources */,
+				F083FF042BB9FC2A00206626 /* BaseConnectionControllers.swift in Sources */,
+				F0CA88FE2B8BC2FA002FD1F0 /* BlEDelageteObject_ext_tasks.swift in Sources */,
+				F0A731792B1748DC00F621CE /* cbuuidStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0A7316A2B1746B500F621CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A7316B2B1746B500F621CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0A7316F2B1746B600F621CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A731702B1746B600F621CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0A731732B1746B600F621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0A731742B1746B600F621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A731762B1746B600F621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPK58GB772;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuitarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanfordg.GuitarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0A731772B1746B600F621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPK58GB772;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuitarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stanfordg.GuitarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A7315C2B1746B500F621CE /* Build configuration list for PBXProject "GuitarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A731732B1746B600F621CE /* Debug */,
+				F0A731742B1746B600F621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A731752B1746B600F621CE /* Build configuration list for PBXNativeTarget "GuitarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A731762B1746B600F621CE /* Debug */,
+				F0A731772B1746B600F621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A731592B1746B500F621CE /* Project object */;
+}
