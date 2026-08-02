@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}",
+                "/Users/applecomp/Documents/Arduino_Files/libraries/**",
+                "/Users/applecomp/.platformio/packages/framework-arduinoespressif32/cores/esp32",
+                "/Users/applecomp/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
