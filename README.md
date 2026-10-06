@@ -19,5 +19,8 @@ https://github.com/mbward4602/Senior_Design_Capstone_STrumTech
 Final Report
 https://github.com/BreakfastStanford/StrumTechCapstoneProjectCopy/blob/main/StrumTechCapstone/Assignment_and_Reports/StrumTech%20-%20Senior%20Design%20Final%20Report%20(2).pdf
 
+Poster
+https://github.com/BreakfastStanford/StrumTechCapstoneProjectCopy/blob/main/StrumTechCapstone/Assignment_and_Reports/StrumTech%20Research%20Day%20Poster.png
+
 Powerpoint
 https://github.com/BreakfastStanford/StrumTechCapstoneProjectCopy/blob/main/StrumTechCapstone/Assignment_and_Reports/StrumTech%20Spring%20Final%20Presentation.pdf
